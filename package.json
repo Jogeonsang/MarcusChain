@@ -1,0 +1,16 @@
+{
+  "name": "MarcusChain",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Jogeonsang <rhcn258@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.8"
+  },
+  "dependencies": {
+    "typescript": "^3.9.5"
+  }
+}
